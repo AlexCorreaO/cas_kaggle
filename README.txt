@@ -51,5 +51,3 @@ Podria ser interessant provar d'entrenar el model amb encara més dades reals. A
 Amb això és possible que s'obtingui una precisió encara més alta i apropar-se bastant a la classificació perfecte, que no seria necessari supervisar. 
 
 També seria interessant importar més diccionaris i fer les separacions per paraules existents a tots els diccionaris i no només per ngrames.
-## Llicencia
-El projecte s’ha desenvolupat sota llicència ZZZz.
