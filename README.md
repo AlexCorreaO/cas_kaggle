@@ -42,6 +42,7 @@ Per tal de fer una prova, es pot fer servir amb la següent comanda
 Cal que el fitxer test_data es trobi a la mateixa carpeta que l'arxiu .py
 Per canviar el fitxer de test es pot editar el nom del mateix al .py. 
 L'arxiu test_data.csv es genera al executar el notebook classificacio_URL.ipynb, on també es genera el classificador definitiu, que es guarda a l'arxiu multinomialNB_trained.sav
+Per executar-ho cal entrenar el model 1 vegada amb el notebook i generar l'arxiu multinomialNB_trained.sav. Aquest fitxer és massa pesat per pujar-lo al repositori de GitHub.
 ## Conclusions
 El millor model que s'ha aconseguit ha estat el MultinomialNB utilitzant el Pipeline i hiperparàmetres mencionats.
 Un dels majors problemes de treballar amb aquest dataset és la gran quantitat de dades que té i obliga a crear SparseMatrix per no excedir els límits de memòria.
