@@ -34,8 +34,10 @@ He construit un Pipeline que consta de 3 components:
 - TfidfTransformer: Transforma una 'count matrix' a una representació normalitzada tf o tf-idf. Tf:'term-frequency'; Tf-idf: 'term-frequency times inverse document-frequency'
 - MultinomialNB: 'Multinomial Naive Bayes'. Segons sklearn, 'The multinomial Naive Bayes classifier is suitable for classification with discrete features (e.g., word counts for text classification)' https://scikit-learn.org/stable/modules/naive_bayes.html#multinomial-naive-bayes
 Les dades que consten a continuació estan realitzades amb un 95% del dataset a l'entrenament. Això ens dona 5210 url per classe destinat a l'entrenament. Si augmentem aquest 95% obtindrem millors resultats encara.
+
 |     Model     |       Hiperparametres      | Precisió | Temps d'entrenament |
 | MultinomialNB | fit_prior=False, alpha=0.0 |   95%    |         42s         |
+
 ## Demo
 Per tal de fer una prova, es pot fer servir amb la següent comanda
 ``` python3 fast_test.py ``` 
